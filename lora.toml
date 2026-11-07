@@ -95,5 +95,6 @@ export_dec  = 8                          # capture oversampling — 8 = 2 MHz fo
 # Web-GUI Settings
 
 [web]
-host = "127.0.0.1"   # localhost-only. Set to "0.0.0.0" to expose on the LAN.
+host = "0.0.0.0"   
+#host = "127.0.0.1" # localhost-only. Set to "0.0.0.0" to expose on the LAN.
 port = 5000          # Port the web service runs on. Can be changed in case of conflictions.
